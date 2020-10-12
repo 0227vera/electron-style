@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>webname</title>
+    <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src 'self' 'unsafe-inline';"
+    />
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <a href="https://0227vera.github.io/">在electron中打开salvaotre的博客</a>
+    <br />
+    <a href="https://0227vera.github.io/" id="openInBrowser"
+      >在浏览器中打开salvaotre的博客</a
+    >
+    <br />
+    <button id="btntoopenchild">在新窗口中打开salvatore的blog</button>
+    <br />
+    <button id="btn">click me open new child window</button>
+    <br />
+    <button id="showNotice">click show message</button>
+    <br />
+    <button id="notice">click 通知消息</button>
+    <br />
+
+    <div>
+      <span>需要复制到剪切板上的数据：</span>
+      <span id="text">asflasdfafalsdf2342✈️2342434</span>
+      <br />
+      <button id="copy">click to copy</button>
+    </div>
+
+    <div id="myText"></div>
+    <script src="./public/js/index.js"></script>
+  </body>
+</html>
