@@ -5,11 +5,16 @@
 
 Electron = Chromium + Node.js + Native API
 
+- Chromium: 为 Electron 提供了强大的 UI 能力，可以不考虑兼容性的情况下，利用强大的 Web 生态来开发界面。
+- Node.js: 让 Electron 有了底层的操作能力，比如文件的读写，甚至是集成 C++等等操作，并可以使用大量开源的 npm 包来完成开发需求。
+- Native API: Native API 让 Electron 有了跨平台和桌面端的原生能力，比如说它有统一的原生界面，窗口、托盘这些。
+
 ## 使用场景
 
-1. 没有专门的桌面应用开发者
-2. 如果一个应用既要需要 BS 开发，还需要 CS 开发，使用 electron
+1. 公司没有专门的桌面应用开发者，而需要前端兼顾来进行开发时，用 Electron 就是一个不错的选择
+2. 一个应用同时开发 Web 端和桌面端的时候，那使用 Electron 来进行开发可以节约人员成本
 3. 开发一个效率工具
+4. 一些 IM 产品
 
 ## 哪些应用是使用的 electron 开发的
 
